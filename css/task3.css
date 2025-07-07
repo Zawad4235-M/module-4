@@ -1,0 +1,40 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+}
+table, td, th{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.table-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h2{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+table caption{
+  margin-bottom: 10px;
+}
+th{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: lightblue;
+}
+td{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: lightgreen;
+}
+table{
+  width: 500px;
+}
+td:hover{
+  cursor: pointer;
+  background-color: green;
+}
